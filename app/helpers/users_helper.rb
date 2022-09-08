@@ -2,11 +2,13 @@ module UsersHelper
   def humanize_document_type(document_type)
     case document_type
     when "1"
-      t "verification.residence.new.document_type.spanish_id"
+      t "verification.residence.new.document_type.card"
     when "2"
-      t "verification.residence.new.document_type.passport"
+      t "verification.residence.new.document_type.digits"
     when "3"
-      t "verification.residence.new.document_type.residence_card"
+      t "verification.residence.new.document_type.passport"
+    when "4"
+      t "verification.residence.new.document_type.access_code"
     end
   end
 

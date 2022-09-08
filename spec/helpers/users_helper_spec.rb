@@ -3,9 +3,10 @@ require "rails_helper"
 describe UsersHelper do
   describe "#humanize_document_type" do
     it "returns a humanized document type" do
-      expect(humanize_document_type("1")).to eq "DNI"
-      expect(humanize_document_type("2")).to eq "Passport"
-      expect(humanize_document_type("3")).to eq "Residence card"
+      expect(humanize_document_type("1")).to eq "I.D Card or Drivers License"
+      expect(humanize_document_type("2")).to eq "Last 4 Digits of Social Security"
+      expect(humanize_document_type("3")).to eq "Passport"
+      expect(humanize_document_type("4")).to eq "Access Code"
     end
   end
 

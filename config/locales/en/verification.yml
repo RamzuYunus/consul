@@ -51,9 +51,10 @@ en:
         document_number_help_title: Help
         document_number_help_text: "<strong>DNI</strong>: 12345678A<br> <strong>Passport</strong>: AAA000001<br> <strong>Residence card</strong>: X1234567P"
         document_type:
-          passport: Passport
-          residence_card: Residence card
-          spanish_id: DNI
+          card: "I.D Card or Drivers License"
+          digits: "Last 4 Digits of Social Security"
+          passport: "Passport"
+          access_code: "Access Code"
         error_not_allowed_age: You don't have the required age to participate
         error_not_allowed_postal_code: Citizens from this postal code cannot participate
         error_verifying_census: The Census was unable to verify your information. Please confirm that your census details are correct by calling to City Council or visit one Citizen Support Office.
